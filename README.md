@@ -1,0 +1,2 @@
+# design_pattern
+一个java设计模式的代码库,计划每一种设计模式都写一个简单的demo,欢迎大家浏览,有什么问题请issue
