@@ -8,6 +8,6 @@
 4. Director(指挥者):构建一个使用Buidr接口的对象。它主要是用于创建一个复杂的对象。它主要有两个作用,一是:隔离了客户与对象的生产过程,二是:负责控制产品对象的生产过程
 
 ### 原理类图:
-[原理类图](https://img-blog.csdnimg.cn/20190913104647123.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2x1bzYwOTYzMDE5OQ==,size_16,color_FFFFFF,t_70)
+![原理类图](https://img-blog.csdnimg.cn/20190913104647123.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2x1bzYwOTYzMDE5OQ==,size_16,color_FFFFFF,t_70)
 #### 建造者模式在JDK中的具体应用
-[类图](https://img-blog.csdnimg.cn/20190913134224832.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2x1bzYwOTYzMDE5OQ==,size_16,color_FFFFFF,t_70)
+![类图](https://img-blog.csdnimg.cn/20190913134224832.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2x1bzYwOTYzMDE5OQ==,size_16,color_FFFFFF,t_70)
