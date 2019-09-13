@@ -20,7 +20,5 @@ public class Test {
         //生产高配版手机
         director.setPhoneBuilder(new ProVersionPhoneBuilder());
         System.out.println(director.productPhone());
-
-
     }
 }
