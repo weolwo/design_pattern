@@ -9,5 +9,30 @@
 
 ### 原理类图:
 ![原理类图](https://img-blog.csdnimg.cn/20190913104647123.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2x1bzYwOTYzMDE5OQ==,size_16,color_FFFFFF,t_70)
-#### 建造者模式在JDK中的具体应用
-![类图](https://img-blog.csdnimg.cn/20190913134224832.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2x1bzYwOTYzMDE5OQ==,size_16,color_FFFFFF,t_70)
+
+#### 在JDK中的应用
+----
+![uml图](https://img-blog.csdnimg.cn/20190913142006746.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2x1bzYwOTYzMDE5OQ==,size_16,color_FFFFFF,t_70)
+- 代码:
+```java
+StringBuilder里面的append()方法
+@Override
+public StringBuilder append(char c) {
+super.append(c);
+return this;
+}
+
+其父类的append()方法
+
+  @Override
+public AbstractStringBuilder append(char c) {
+    ensureCapacityInternal(count + 1);
+    value[count++] = c;
+    return this;
+}
+
+测试代码
+StringBuilder builder =new StringBuilder();
+StringBuilder stringBuilder = builder.append("猫").append("花").append("美美的");
+```
+- 建造者最常用的其实是链式调用，因为我可以订做这个产品的具体细节，你再给我多少个append()或者一些其他方法调用，我返回的还是StringBuilder这个对象，也就是这个产品不变，但是里面的细节我有要求你给我做成什么样的。

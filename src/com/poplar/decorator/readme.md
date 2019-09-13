@@ -21,3 +21,5 @@
 1. 鲜切花(被装饰着)
 2. 各种包装纸(装饰者)
  
+#### 装饰者模式在JDK中的具体应用
+![类图](https://img-blog.csdnimg.cn/20190913134224832.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2x1bzYwOTYzMDE5OQ==,size_16,color_FFFFFF,t_70)
