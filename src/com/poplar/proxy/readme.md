@@ -35,3 +35,11 @@ cglib-3.2.12.jar
 ```
 - 被代理的类不能为final类
 - 如果被代理类的方法是final 或者 static修饰将不会被拦截
+
+#### 使用动态代理实现jdbc连接池案列详见以下几个文件
+ ```java
+DataSourceTest
+CustomDataSource
+JDBCUtil
+db.properties
+```
