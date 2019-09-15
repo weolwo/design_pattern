@@ -19,3 +19,6 @@
 - `java.util.logging`是JDK自带的日志包，可以将日志输出到文件、内存或者控制台，作用与我们常用的log4j类似。
 包中的`Handler`类和`Formatter`类在设计上利用了桥接模式
 ![UML类图](https://img-blog.csdnimg.cn/20190915103446949.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2x1bzYwOTYzMDE5OQ==,size_16,color_FFFFFF,t_70)
+
+#### 案列UML图
+![UML图](https://img-blog.csdnimg.cn/20190915203518810.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2x1bzYwOTYzMDE5OQ==,size_16,color_FFFFFF,t_70)
